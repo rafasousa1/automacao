@@ -43,6 +43,6 @@ for linha in tabela.index:
         pyautogui.write(str(tabela.loc[linha, "obs"]))
     pyautogui.press("tab")
     pyautogui.press("enter")
-    pyautogui.scroll(-1000)
+    pyautogui.scroll(-5000)
     time.sleep(1.5)
-    pyautogui.scroll(1000)
+    pyautogui.scroll(5000)
